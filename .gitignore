@@ -1,0 +1,5 @@
+*.o
+slstatus
+duskc
+*.txt
+*.sh
