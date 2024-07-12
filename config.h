@@ -75,8 +75,8 @@ static const char unknown_str[] = "n/a";
  */
 static const struct arg args[] = {
         /* function  format                 argument  status_no update_interval */
-	{ datetime,  "%s ",                 "%F %T",  "1",      1  },
-	{ ram_perc,  "RAM: %s%% |",         NULL,     "2",      1  },
-	{ cpu_perc,  "CPU: %s%% |",    	    NULL,     "3",      1  },
-	{ disk_free, " | DISK: %s free |",  "/",      "4",      60 },
+	{ datetime,  "  %s ┇ ",                 "%F %T",  "1",      1  },
+	{ ram_perc,  " %s%% ┇",         NULL,     "2",      1  },
+	{ cpu_perc,  "  %s%% ┇",    	    NULL,     "3",      1  },
+	{ disk_free, " ┇ 󱛟 %s free ┇",  "/",      "4",      60 },
 };
